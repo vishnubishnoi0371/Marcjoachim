@@ -16,7 +16,7 @@ const MindsetSwiper = () => {
     <div className="min-h-screen xxl:min-h-[70vh] flex relative">
             <img className="absolute hidden lg:block max-w-[600px] max-h-[600px] left-[0%] top-[-50%] z-[-1]" src={ellp1} alt="ellp" />
 
-      <div className="container relative  flex-grow flex flex-col mx-auto max-w-[1140px] px-3">
+      <div className="container relative  flex-grow flex flex-col mx-auto  px-3">
         <div className="flex items-center justify-center flex-col sm:absolute z-[11] sm:top-[4%] mt-10 sm:mt-0 lg:top-[3%] ms-[-30px] sm:right-[1%]">
           <span className=" font-ff-pop text-end ms-auto max-w-max sm:-rotate-90 font-light sm:ms-[160px] flex sm:items-end text-xl me-[40px] sm:me-0 leading-[34px]">
             MJH

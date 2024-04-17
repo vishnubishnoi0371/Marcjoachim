@@ -1,11 +1,11 @@
 import React from "react";
-import about from "../Assets/images/webp/about.png";
+import about from "../Assets/images/webp/about.webp";
 import aboutep from "../Assets/images/svg/about-ep.svg";
 
 const About = () => {
   return (
     <div id="test" className="relative">
-      <div className="container  mx-auto max-w-[1140px] px-3 overflow-hidden">
+      <div className="  mx-auto max-w-[1140px] px-3 overflow-hidden">
         <div className="pt-10 md:pt-0">
           <div className=" flex sm:items-end items-start gap-1">
             <div className=" ml-5 sm:mt-[11px] w-[200px] sm:w-[26px] h-3 sm:h-40 lg:h-[169px] border-l-[2px] border-b-[2px] border-0 border-[#F77B0B]">

@@ -2,17 +2,17 @@ import React from "react";
 
 const Request = () => {
   return (
-    <div className="bg-[#f2f8ff]">
-      <div className="container  mx-auto max-w-[1140px] px-3 overflow-hidden">
+    <div className="bg-[#f2f8ff] ">
+      <div className="container  mx-auto  px-3 overflow-hidden">
         <div className="flex relative flex-row flex-wrap py-8 md:py-[70px] justify-between items-center -mx-3 ">
           <div className="md:w-7/12 z-30 ps-3 w-full">
-            <h1 className="text-[40px] text-center sm:text-start md:text-[52px] font-normal md:leading-[67px] text-black ff-hel uppercase">
+            <h1 className="text-[40px] text-center sm:text-start md:text-[52px] font-normal leading-[50px] md:leading-[67px] text-black ff-hel uppercase">
               Request your
             </h1>
-            <h1 className="text-[40px] text-center sm:text-start md:text-[52px] font-normal md:leading-[67px] text-black ff-hel uppercase">
+            <h1 className="text-[40px] text-center sm:text-start md:text-[52px] font-normal leading-[50px] md:leading-[67px] text-black ff-hel uppercase">
               <span className="text-[#f77b0b]"> non-binding </span> strategy
             </h1>
-            <h1 className="text-[40px] text-center sm:text-start md:text-[52px] font-normal md:leading-[67px] text-black ff-hel uppercase">
+            <h1 className="text-[40px] text-center sm:text-start md:text-[52px] font-normal leading-[50px] md:leading-[67px] text-black ff-hel uppercase">
               meeting now!
             </h1>
           </div>

@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Clintswiper from "./components/Clintswiper";
 import Fight from "./components/Fight";
 import Herosec from "./components/Herosec";
 import LiveCoaching from "./components/LiveCoaching";
@@ -24,6 +25,7 @@ function App() {
       <MindsetSwiper/>
       <Yourex />
       <About />
+      <Clintswiper/>
       <Request />
       <ProcessWork />
       <MyFooter />

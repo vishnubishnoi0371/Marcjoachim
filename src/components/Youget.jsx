@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "./Common/Button";
 import phone from "../Assets/images/svg/phonesvg.svg";
-import flower from "../Assets/images/webp/flower.png";
+import flower from "../Assets/images/webp/flower.webp";
 
 const Youget = () => {
   return (
     <div className="pt-[48px] relative">
-      <div className="container z-[1] mx-auto max-w-[1140px] px-3 ">
+      <div className="container z-[1] mx-auto px-3 ">
         <p className="text-base font-normal font-ff-pop leading-[26px] text-black mb-5 text-center">
           You are not alone! Numerous women before you stood exactly at this
           point, where you are now.

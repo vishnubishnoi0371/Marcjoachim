@@ -21,7 +21,7 @@ const fightData = [
 ];
 const Fight = () => {
   return (
-    <div className=" bg-[url(./Assets/images/webp/fightbg.png)] bg-no-repeat  bg-cover bg-center lg:bg-fullsize ">
+    <div className=" bg-[url(./Assets/images/webp/fightbg.webp)] bg-no-repeat  bg-cover bg-center lg:bg-fullsize ">
       <div className="max-w-[1000px] mx-auto px-3 md:py-0 py-7">
         <div className="flex flex-row flex-wrap -mx-3  md:justify-end justify-center">
           {fightData.slice(0, 3).map((data, index) => (

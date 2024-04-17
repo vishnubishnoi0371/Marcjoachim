@@ -1,10 +1,10 @@
 import React from "react";
-import fault from "../Assets/images/webp/fault-ep-1.png";
+import fault from "../Assets/images/webp/fault-ep-1.webp";
 
 const Yourfault = () => {
   return (
     <div id="benifit" className="md:pt-[50px] pt-5 relative">
-      <div className="container  mx-auto max-w-[1140px] px-3 md:pt-[50px]">
+      <div className="container  mx-auto px-3 md:pt-[50px]">
         <div className="flex relative flex-row flex-wrap  justify-center items-center -mx-3 pt-[51px]">
           <div className="lg:w-6/12 z-30 w-full">
             <div className="flex flex-col lg:justify-end justify-center items-center lg:items-end">

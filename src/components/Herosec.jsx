@@ -16,8 +16,8 @@ const Herosec = () => {
     setshow(false);
   };
   return (
-    <div className="bg-[url('./Assets/images/webp/Herobg.png')]  bg-no-repeat lg:bg-100% min-h-[100vh] flex ">
-      <div className="container relative z-[1]  mx-auto max-w-[1140px] px-3 flex-grow flex flex-col pt-[26px]">
+    <div className="bg-[url('./Assets/images/webp/Herobg.webp')]  bg-no-repeat lg:bg-100% min-h-[100vh] flex ">
+      <div className="container relative z-[1]  mx-auto px-3 flex-grow flex flex-col pt-[26px]">
         <div className="flex justify-between items-center">
           <img
             className="w-[147px] cursor-pointer h-[53px]"

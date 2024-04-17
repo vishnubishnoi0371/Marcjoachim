@@ -1,7 +1,7 @@
 import React from "react";
-import ellp1 from "../Assets/images/webp/live-ep-1.png";
+import ellp1 from "../Assets/images/webp/live-ep-1.webp";
 
-import ellp2 from "../Assets/images/webp/live-ep-2.png";
+import ellp2 from "../Assets/images/webp/live-ep-2.webp";
 
 const fightData = [
   {
@@ -26,9 +26,17 @@ const fightData = [
 const LiveCoaching = () => {
   return (
     <div className="relative">
-      <img className="absolute max-w-[310px] max-h-[300px] left-[0%] top-[19%]" src={ellp1} alt="ellp" />
-      <img className="absolute max-w-[310px] max-h-[300px] right-[0%] top-[-12%]" src={ellp2} alt="ellp" />
-      <div className="max-w-[1140px] container relative mx-auto px-3 md:py-0 py-7">
+      <img
+        className="absolute max-w-[310px] max-h-[300px] left-[0%] top-[19%]"
+        src={ellp1}
+        alt="ellp"
+      />
+      <img
+        className="absolute max-w-[310px] max-h-[300px] right-[0%] top-[-12%]"
+        src={ellp2}
+        alt="ellp"
+      />
+      <div className=" container relative mx-auto px-3 md:py-0 py-7">
         <div className=" md:hidden block mx-auto ">
           <div className=" flex items-center justify-center mb-6 gap-1">
             <div className=" ml-5 sm:mt-[11px] w-[200px] sm:w-[26px] h-3 sm:h-40 lg:h-[649px] border-l-[2px] border-t-[2px] border-0 border-[#F77B0B]"></div>
@@ -60,7 +68,7 @@ const LiveCoaching = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-row flex-wrap -mx-3 mb-14  md:mt-[29px] justify-center ">
+        <div className="flex flex-row flex-wrap -mx-3 mb-14   justify-center ">
           {fightData.slice(3).map((data, index) => (
             <div
               key={index}

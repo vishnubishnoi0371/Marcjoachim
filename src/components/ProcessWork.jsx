@@ -25,7 +25,7 @@ const fightData = [
 ];
 const ProcessWork = () => {
   return (
-    <div className=" bg-[url(./Assets/images/webp/process-bg.png)] bg-no-repeat bg-cover bg-center xxl:min-h-[60vh]  min-h-[100vh] ">
+    <div className=" bg-[url(./Assets/images/webp/process-bg.webp)] bg-no-repeat bg-cover bg-center xxl:min-h-[60vh]  min-h-[100vh] ">
       <div className="max-w-[1000px] flex flex-col flex-grow mx-auto px-3">
         <div className="flex flex-row flex-wrap -mx-3 pt-10 lg:pt-[150px] xxl:pt-14 justify-center">
           {fightData.slice(0, 3).map((data, index) => (

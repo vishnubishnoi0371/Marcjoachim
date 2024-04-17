@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth !important;
-  /* background-image: url('./Assets/images/webp/fightbg.png'); */
+  /* background-image: url('./Assets/images/webp/Herobg.webp'); */
 }
 .ff-inter {
   font-family: "Inter", sans-serif;
@@ -40,10 +40,6 @@
   -webkit-text-fill-color: transparent;
 }
 /* swiper */
-.swiper {
-  height: 450px;
-  /* background-position: left; */
-}
 
 .swiper-slide {
   background-position: center;
@@ -89,4 +85,27 @@
 }
 .swiper-pagination {
   margin-top: 20px !important;
+}
+/* swipe2 */
+.client .swiper-pagination-horizontal {
+  bottom: 0 !important;
+}
+
+.client .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: #003e92 !important;
+}
+.client .swiper-pagination-vertical {
+  bottom: var(--swiper-pagination-bottom, 8px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: auto !important;
+  position: absolute !important;
+  top: 84% !important;
+  transform: translateX(-50%) !important;
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .container {
+    max-width: 1140px !important;
+  }
 }
