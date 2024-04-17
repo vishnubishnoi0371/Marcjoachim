@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+  /* background-image: url('./Assets/images/webp/fightbg.png'); */
+}
+.ff-inter {
+  font-family: "Inter", sans-serif;
+}
+.ff-pop {
+  font-family: "Poppins", sans-serif;
+}
+.ff-hel {
+  font-family: "Helvetica Neue", sans-serif;
+}
+.level_card {
+  background: #ffffff4d;
+  /* filter: blur(70%);
+  backdrop-filter: blur(46px); */
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(./Font/HelveticaNeueLight.otf);
+}
+.live_card:hover > p {
+  color: #003e92 !important;
+}
+.border_gradient {
+  background: linear-gradient(107.9deg, #0c5fd1 1.25%, #8703c5 93.71%)
+    border-box;
+  opacity: 1;
+}
+.font-gradient {
+  background: linear-gradient(107.9deg, #0c5fd1 1.25%, #8703c5 93.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* swiper */
+.swiper {
+  height: 450px;
+  /* background-position: left; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 450px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.swiper-slide .my_swipe {
+  display: block;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.swiper-button-next {
+  position: absolute !important;
+  bottom: 1% !important;
 }
-
-.App-link {
-  color: #61dafb;
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "prev";
+  position: absolute !important;
+  bottom: 1% !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "next";
+}
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: black !important;
+}
+.swiper-pagination-bullet {
+  background: white !important;
+}
+.swiper-pagination {
+  margin-top: 20px !important;
 }

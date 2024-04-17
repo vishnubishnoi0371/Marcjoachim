@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import About from "./components/About";
+import Fight from "./components/Fight";
+import Herosec from "./components/Herosec";
+import LiveCoaching from "./components/LiveCoaching";
+import MindsetSwiper from "./components/MindsetSwiper";
+import MyFooter from "./components/MyFooter";
+import ProcessWork from "./components/ProcessWork";
+import Request from "./components/Request";
+import TargetGroup from "./components/TargetGroup";
+import Youget from "./components/Youget";
+import Yourex from "./components/Yourex";
+import Yourfault from "./components/Yourfault";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Herosec />
+      <Yourfault />
+      <Fight />
+      <Youget />
+      <LiveCoaching/>
+      <TargetGroup/>
+      <MindsetSwiper/>
+      <Yourex />
+      <About />
+      <Request />
+      <ProcessWork />
+      <MyFooter />
     </div>
   );
 }
