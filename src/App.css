@@ -6,7 +6,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth !important;
-  /* background-image: url('./Assets/images/webp/Herobg.webp'); */
 }
 .ff-inter {
   font-family: "Inter", sans-serif;
@@ -17,11 +16,7 @@
 .ff-hel {
   font-family: "Helvetica Neue", sans-serif;
 }
-.level_card {
-  background: #ffffff4d;
-  /* filter: blur(70%);
-  backdrop-filter: blur(46px); */
-}
+
 @font-face {
   font-family: "Helvetica Neue";
   src: url(./Font/HelveticaNeueLight.otf);
@@ -29,10 +24,12 @@
 .live_card:hover > p {
   color: #003e92 !important;
 }
+
 .border_gradient {
   background: linear-gradient(107.9deg, #0c5fd1 1.25%, #8703c5 93.71%)
     border-box;
   opacity: 1;
+  padding: 1.7px;
 }
 .font-gradient {
   background: linear-gradient(107.9deg, #0c5fd1 1.25%, #8703c5 93.71%);
@@ -40,7 +37,13 @@
   -webkit-text-fill-color: transparent;
 }
 /* swiper */
-
+.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, 8px);
+  top: var(--swiper-pagination-top, auto);
+  left: 50% !important;
+  width: unset !important;
+  transform: translateX(-50%) !important;
+}
 .swiper-slide {
   background-position: center;
   background-size: cover;
@@ -104,7 +107,7 @@
   top: 84% !important;
   transform: translateX(-50%) !important;
 }
-@media (min-width: 1400px) and (max-width: 1600px) {
+@media (min-width: 1400px) {
   .container {
     max-width: 1140px !important;
   }

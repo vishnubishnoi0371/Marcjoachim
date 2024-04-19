@@ -13,12 +13,11 @@ const Youget = () => {
         </p>
         <div className="flex items-center justify-center gap-4 pb-[100px] md:pb-[122px]">
           <Button text="Book a non-binding initial consultation now" />
-          <img src={phone} alt="phone-svg" />
         </div>
         <div className="flex relative flex-row px-3 flex-wrap mb-[50px] justify-center items-center -mx-3 ">
           <div className="lg:w-5/12 z-30 w-full">
             <div className="flex flex-col md:flex-row items-center">
-              <h1 className="text-[42px] md:text-[52px] font-normal uppercase ff-hel leading-[normal] md:leading-[67px] text-black">
+              <h1 className="text-[42px]  md:text-[52px] font-normal uppercase ff-hel leading-[normal] md:leading-[67px] text-black">
                 what you <br />
                 <span className="md:text-[60px] text-[48px] leading-[normal] md:leading-[78px]">
                   will <span className="text-[#f77b0b]"> get</span>
@@ -34,7 +33,7 @@ const Youget = () => {
           <div className="lg:w-7/12 z-30 w-full">
             <div className="flex gap-3 items-center px-3 ">
               <hr className="h-[60px] w-[2px] bg-[#9800b0]" />{" "}
-              <p className="text-[16px] text-center sm:text-start mt-4 sm:mt-0 max-w-[420px] font-ff-pop leading-[26px] text-black mb-0 font-normal">
+              <p className="text-[16px] text-center mx-auto md:mx-0 md:text-start mt-4 sm:mt-0 max-w-[420px] font-ff-pop leading-[26px] text-black mb-0 font-normal">
                 I will show you which steps are necessary for you to finally
                 successfully let go of your EX. And I will support you to look
                 confidently into your new future.

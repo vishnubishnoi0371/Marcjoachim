@@ -4,7 +4,7 @@ const Yourex = () => {
   return (
     <div>
       <div className="bg-[url('./Assets/images/webp/ex.webp')] z-[1]  relative min-h-[400px] bg-left-bottom md:min-h-[517px] bg-no-repeat bg-100% object-cover flex justify-center items-center ">
-        <div className="max-w-[778px]  level_card p-3 sm:p-5 lg:p-[50px] my-auto  mx-auto">
+        <div className="max-w-[778px]  bg-[#ffffff4d] p-3 sm:p-5 lg:p-[50px] my-auto  mx-auto">
           <h1 className="font-normal leading-[62px] ff-hel uppercase text-center text-white mb-[10px] text-[42px] md:text-[52px]">
             Are you over your EX?
           </h1>

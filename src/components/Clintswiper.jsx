@@ -64,9 +64,9 @@ const Clintswiper = () => {
   const [firstSwiper, setFirstSwiper] = React.useState(null);
   const [secondSwiper, setSecondSwiper] = React.useState(null);
   return (
-    <div className="relative md:pt-[200px]">
+    <div className="relative container mx-auto sm:py-5 lg:py-[200px]">
       <div className="flex items-center justify-center flex-col sm:absolute z-[11] sm:top-[4%] mt-10 sm:mt-0 lg:top-[0%] ms-[-30px] sm:right-[1%]">
-        <span className=" font-ff-pop text-end  max-w-max sm:-rotate-90 font-light sm:ms-[160px] flex sm:items-end text-xl leading-[34px]">
+        <span className=" font-ff-pop text-end  max-w-max sm:-rotate-90 font-light ms-14 flex sm:items-end text-xl leading-[34px]">
           MJH
         </span>
         <div className=" flex sm:items-end items-start gap-1">
@@ -153,6 +153,22 @@ const Clintswiper = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="flex items-center justify-center flex-col mt-10 lg:mt-0 lg:absolute left-[2%]  sm:bottom-[4%]  ">
+        <span className=" font-ff-pop text-end  hidden lg:block  lg:-rotate-90 font-light lg:ms-[-180px]   text-xl leading-[34px]">
+          MJH
+        </span>
+        <div className=" flex md:items-end items-center  gap-1">
+          <div className=" lg:mt-[11px] w-[200px] lg:w-[26px] h-3 lg:h-[180px] border-l-[2px] border-t-[2px] lg:border-b-[2px] border-0 border-[#F77B0B]"></div>
+          <div className=" flex flex-row gap-3  md:items-end md:translate-y-4 -translate-y-5">
+            <p className=" ff-hel lg:-rotate-90 font-normal text-2xl lg:text-[40px]">
+              07
+            </p>
+            <p className=" ff-hel  font-normal uppercase text-2xl leading-[30px]">
+              take step
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

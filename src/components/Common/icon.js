@@ -118,10 +118,18 @@ export const Insta = () => {
 };
 export const Quotes = () => {
   return (
-    <svg width="99" height="70" viewBox="0 0 99 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M31.2403 69.5436H0L29.4027 0.0185547H49.3107L31.2403 69.5436ZM80.8573 69.5436H49.617L79.0197 0.0185547H98.9277L80.8573 69.5436Z" fill="#003E92"/>
+    <svg
+      width="99"
+      height="70"
+      viewBox="0 0 99 70"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M31.2403 69.5436H0L29.4027 0.0185547H49.3107L31.2403 69.5436ZM80.8573 69.5436H49.617L79.0197 0.0185547H98.9277L80.8573 69.5436Z"
+        fill="#003E92"
+      />
     </svg>
-    
   );
 };
 export const Prevarrow = () => {
@@ -141,6 +149,35 @@ export const Prevarrow = () => {
     </svg>
   );
 };
+export const Arrow = () => {
+  return (
+    <svg
+      width="41"
+      height="14"
+      viewBox="0 0 41 14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M40.101 7.60104C40.433 7.2691 40.433 6.73091 40.101 6.39896L34.6917 0.989595C34.3597 0.65765 33.8215 0.65765 33.4896 0.989595C33.1576 1.32154 33.1576 1.85973 33.4896 2.19168L38.2979 7L33.4896 11.8083C33.1576 12.1403 33.1576 12.6785 33.4896 13.0104C33.8215 13.3424 34.3597 13.3424 34.6917 13.0104L40.101 7.60104ZM0.5 7.85L39.5 7.85L39.5 6.15L0.5 6.15L0.5 7.85Z"
+        fill="url(#paint0_linear_642_7)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_642_7"
+          x1="-3.7"
+          y1="7.38462"
+          x2="-3.4011"
+          y2="11.1488"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#0C5FD1" />
+          <stop offset="1" stop-color="#8703C5" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
 export const Nextarrow = () => {
   return (
     <svg
@@ -152,7 +189,7 @@ export const Nextarrow = () => {
     >
       <path
         d="M1 1.25098L19 18.251L1 35.251"
-        stroke="black"
+        stroke="white"
         stroke-width="1.5"
       />
     </svg>

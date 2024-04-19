@@ -16,7 +16,7 @@ const Herosec = () => {
     setshow(false);
   };
   return (
-    <div className="bg-[url('./Assets/images/webp/Herobg.webp')]  bg-no-repeat lg:bg-100% min-h-[100vh] flex ">
+    <div className="bg-[url('./Assets/images/webp/Herobg.webp')]  bg-no-repeat lg:bg-100% min-h-[100vh] lg:min-h-[50vh] xl:min-h-[100vh] flex ">
       <div className="container relative z-[1]  mx-auto px-3 flex-grow flex flex-col pt-[26px]">
         <div className="flex justify-between items-center">
           <img
@@ -91,28 +91,28 @@ const Herosec = () => {
               <img src={phone} alt="phone-svg" />
             </div>
           </div>
-          <div className=" flex md:mt-5 lg:translate-y-[233px] gap-[50px] items-center">
+          <div className=" flex md:mt-5 xl:translate-y-[233px] lg:translate-y-[133px] gap-[50px] items-center">
             <div className="flex items-center   gap-3">
               <hr className="h-[70px] w-[2px] bg-[#9800b0]" />
 
-              <p className="text-[14px] sm:text-base ff-hel uppercase font-normal leading-[27px] mb-0 text-black lg:text-white">
+              <p className="text-[14px] sm:text-base tracking-[2px] ff-hel uppercase font-normal leading-[27px] mb-0 text-black lg:text-white">
                 Die wichtigsten <br /> Aspekte einer <br /> Trennung:
               </p>
             </div>
             <div>
               <ul>
                 <li className="list-disc  text-[14px] sm:text-base font-normal font-ff-pop text-black lg:text-white mb-[2px] leading-[26px]">
-                  physische Trennung
+                  Physische Trennung
                 </li>
                 <li className="list-disc  text-[14px] sm:text-base font-normal font-ff-pop text-black lg:text-white leading-[26px]">
-                  mentale Trennung
+                  Mentale Trennung
                 </li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div className=" absolute z-[-1] bottom-[-10%] sm:bottom-[-40%] lg:bottom-[-25%] xl:left-[-2%]">
+        <div className=" mx-auto md:absolute z-[-1] bottom-[-10%] sm:bottom-[-40%] xl:bottom-[-25%]  lg:bottom-[-55%] xl:left-[-2%]">
           <span className=" font-hpop inline-block max-w-max sm:-rotate-90 font-light text-xl leading-[34px]">
             MJH
           </span>
