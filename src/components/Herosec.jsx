@@ -49,11 +49,11 @@ const Herosec = () => {
                   Testimonials{" "}
                 </a>
               </li>
-              <button className="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] block sm:hidden font-ff-inter  p-[16px_28.21px_16px_28.21px] text-white">
+              <button className="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] hover:shadow-button duration-300 block sm:hidden font-ff-inter  p-[16px_28.21px_16px_28.21px] text-white">
                 Book consultation now
               </button>
             </ul>
-            <button className=" hidden sm:block duration-300 nav_btn font-ff-inter hover:shadow-2xl bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] p-[16px_28.21px_16px_28.21px] text-white">
+            <button className=" hover:shadow-button duration-300 hidden sm:block  nav_btn font-ff-inter bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] p-[16px_28.21px_16px_28.21px] text-white">
               Book consultation now
             </button>
             <div
@@ -93,11 +93,11 @@ const Herosec = () => {
               </a>
             </div>
           </div>
-          <div className=" flex md:mt-5 xl:translate-y-[233px] lg:translate-y-[133px] gap-[50px] items-center">
+          <div className=" flex md:mt-5 xl:translate-y-[253px] lg:translate-y-[133px] gap-[50px] items-start  lg:ms-10">
             <div className="flex items-center   gap-3">
-              <hr className="h-[70px] w-[2px] bg-[#9800b0]" />
+              <hr className="h-[70px] w-[2px] border-t-0 bg-[#9800b0]" />
 
-              <p className="text-[14px] sm:text-base tracking-[2px] ff-hel uppercase font-normal leading-[27px] mb-0 text-black lg:text-white">
+              <p className="text-[14px] sm:text-base tracking-[2px] ff-hel uppercase font-light leading-[27px] mb-0 text-black lg:text-white">
                 Die wichtigsten <br /> Aspekte einer <br /> Trennung:
               </p>
             </div>

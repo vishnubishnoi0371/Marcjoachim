@@ -58,7 +58,7 @@ const LiveCoaching = () => {
               key={index}
               className="md:max-w-[380px] md:px-0 px-3 w-full md:my-0 my-2"
             >
-              <div className=" hover:bg-[#003e924d] duration-300 md:p-[63px_48px] live_card p-[20px_16px] h-full lg:min-h-[230px]">
+              <div className=" hover:bg-[#f5faff] duration-300 md:p-[63px_48px] live_card p-[20px_16px] h-full lg:min-h-[230px]">
                 <p className=" font-ff-pop text-base lg:max-w-[280px] font-normal leading-[25.6px] text-black duration-300">
                   {data.para}
                 </p>
@@ -72,7 +72,7 @@ const LiveCoaching = () => {
               key={index}
               className="md:max-w-[380px] md:px-0 px-3 w-full md:my-0 my-2"
             >
-              <div className="live_card hover:bg-[#003e924d] duration-300 md:p-[88px_48px] p-[20px_16px] h-full lg:min-h-[230px]">
+              <div className="live_card hover:bg-[#f5faff] duration-300 md:p-[88px_48px] p-[20px_16px] h-full lg:min-h-[230px]">
                 <p className=" font-ff-pop text-base lg:max-w-[280px] font-normal leading-[25.6px] text-black duration-300">
                   {data.para}
                 </p>

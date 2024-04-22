@@ -15,7 +15,7 @@ const MindsetSwiper = () => {
   return (
     <div className="xl:min-h-[110vh] md:min-h-[50vh] xxl:min-h-[80vh] flex relative">
       <img
-        className="absolute hidden lg:block max-w-[600px] max-h-[600px] left-[0%] top-[-50%] z-[-1]"
+        className="absolute hidden lg:block max-w-[600px] max-h-[600px] left-[0%] top-[-40%] z-[-1]"
         src={ellp1}
         alt="ellp"
       />
