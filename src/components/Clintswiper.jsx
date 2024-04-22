@@ -65,7 +65,7 @@ const Clintswiper = () => {
   const [secondSwiper, setSecondSwiper] = React.useState(null);
   return (
     <div className="relative container mx-auto sm:py-5 lg:py-[200px]">
-      <div className="flex items-center justify-center flex-col sm:absolute z-[11] sm:top-[4%] mt-10 sm:mt-0 lg:top-[0%] ms-[-30px] sm:right-[1%]">
+      <div className="flex items-center justify-center flex-col sm:absolute z-[11] sm:top-[4%]  lg:top-[0%] ms-[-30px] sm:right-[1%]">
         <span className=" font-ff-pop text-end  max-w-max sm:-rotate-90 font-light ms-14 flex sm:items-end text-xl leading-[34px]">
           MJH
         </span>
@@ -94,7 +94,7 @@ const Clintswiper = () => {
         navigation={false}
         onSwiper={setFirstSwiper}
         controller={{ control: secondSwiper }}
-        className=" sm:!px-40 relative z-[1] !pt-[84px] !pb-[20px]"
+        className=" sm:!px-40 cursor-pointer relative z-[1] !pt-[84px] !pb-[20px]"
       >
         {clientData1.map((data, index) => (
           <SwiperSlide key={index} className=" !h-auto">
@@ -135,7 +135,7 @@ const Clintswiper = () => {
         slidesPerView={1}
         onSwiper={setSecondSwiper}
         controller={{ control: firstSwiper }}
-        className=" max-w-[790px] px-5 sm:pb-10"
+        className=" max-w-[790px] cursor-pointer px-5 sm:pb-10"
       >
         {clientData2.map((data, index) => (
           <SwiperSlide key={index} className=" sm:h-auto mb-[6px]">
@@ -158,7 +158,7 @@ const Clintswiper = () => {
           MJH
         </span>
         <div className=" flex md:items-end items-center  gap-1">
-          <div className=" lg:mt-[11px] w-[200px] lg:w-[26px] h-3 lg:h-[180px] border-l-[2px] border-t-[2px] lg:border-b-[2px] border-0 border-[#F77B0B]"></div>
+          <div className=" lg:mt-[11px] w-[130px] lg:w-[26px] h-3 lg:h-[180px] border-l-[2px] border-t-[2px] lg:border-b-[2px] border-0 border-[#F77B0B]"></div>
           <div className=" flex flex-row gap-3  md:items-end md:translate-y-4 -translate-y-5">
             <p className=" ff-hel lg:-rotate-90 font-normal text-2xl lg:text-[40px]">
               07

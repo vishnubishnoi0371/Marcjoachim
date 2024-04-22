@@ -16,7 +16,7 @@ const Herosec = () => {
     setshow(false);
   };
   return (
-    <div className="bg-[url('./Assets/images/webp/Herobg.webp')]  bg-no-repeat lg:bg-100% min-h-[100vh] lg:min-h-[50vh] xl:min-h-[100vh] flex ">
+    <div className="bg-[url('./Assets/images/webp/Herobg.webp')]  bg-no-repeat lg:bg-100% min-h-[110vh] lg:min-h-[50vh] xl:min-h-[100vh] flex ">
       <div className="container relative z-[1]  mx-auto px-3 flex-grow flex flex-col pt-[26px]">
         <div className="flex justify-between items-center">
           <img
@@ -53,7 +53,7 @@ const Herosec = () => {
                 Book consultation now
               </button>
             </ul>
-            <button className="bg-black hidden sm:block font-ff-inter bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] p-[16px_28.21px_16px_28.21px] text-white">
+            <button className=" hidden sm:block duration-300 nav_btn font-ff-inter hover:shadow-2xl bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] p-[16px_28.21px_16px_28.21px] text-white">
               Book consultation now
             </button>
             <div
@@ -73,7 +73,7 @@ const Herosec = () => {
         <div className="flex flex-col lg:flex-row lg:items-center justify-center lg:justify-start  mx-auto lg:mx-0  flex-grow gap-[30px] md:gap-[50px]">
           <div className="flex flex-col justify-center">
             <h3
-              className="font-normal text-[18.8px] ff-hel leading-[24px] text-[#F77B0B] ;
+              className="font-black text-[18.8px] ff-hel leading-[24px] text-[#F77B0B] ;
 "
             >
               Marc joachim hubrich

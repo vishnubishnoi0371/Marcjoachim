@@ -20,24 +20,24 @@ const MindsetSwiper = () => {
         alt="ellp"
       />
 
-      <div className="container relative pt-12 flex-grow flex flex-col mx-auto  px-3">
-        <div className="flex items-center justify-center flex-col  lg:absolute z-[11] xxl:top-[2%] lg:top-[4%] mt-10 lg:mt-0   ms-[-30px] lg:right-[1%]">
-          <span className=" font-ff-pop text-end ms-auto max-w-max lg:-rotate-90 font-light lg:ms-[160px] flex lg:items-end text-xl me-[40px] sm:me-0 leading-[34px]">
+      <div className="container relative md:pt-12 flex-grow flex flex-col mx-auto  px-3">
+        <div className="flex items-center justify-center flex-col  xl:absolute z-[11] xxl:top-[2%] lg:top-[4%] xxl:right-[-12%] mt-10 lg:mt-0   ms-[-30px] lg:right-[1%]">
+          <span className=" font-ff-pop text-end ms-auto max-w-max lg:-rotate-90 font-light lg:ms-[160px] xxl:ms-[60px] flex lg:items-end text-xl me-[40px] sm:me-0 leading-[34px]">
             MJH
           </span>
-          <div className=" flex lg:items-end justify-center  items-center gap-1">
-            <div className=" flex flex-col sm:flex-row gap-5 lg:gap-0 items-end lg:translate-y-4 -translate-y-5">
-              <p className="md:text-[24px] text-lg font-normal ff-hel text-black leading-[30px] uppercase">
+          <div className=" flex xl:items-end justify-center  items-center gap-1">
+            <div className=" flex flex-col sm:flex-row gap-5 xl:gap-0 items-end xl:translate-y-4 -translate-y-5">
+              <p className="md:text-[24px] text-lg font-normal block xxl:hidden ff-hel text-black leading-[30px] uppercase">
                 analysis
               </p>
-              <p className=" ff-hel lg:-rotate-90 font-normal text-2xl sm:text-[40px]">
+              <p className=" ff-hel xl:-rotate-90 font-normal text-2xl sm:text-[40px]">
                 04
               </p>
             </div>
-            <div className=" sm:mt-[11px] w-[200px] lg:w-[26px] h-3 lg:h-40 xl:h-[130px] border-r-[2px] border-b-[2px] border-0 border-[#F77B0B]"></div>
+            <div className=" sm:mt-[11px] w-[200px] xl:w-[26px] h-3 xl:h-40 xxl:h-[130px] border-r-[2px] border-b-[2px] border-0 border-[#F77B0B]"></div>
           </div>
         </div>
-        <div className="flex relative flex-row  flex-grow mb-6 lg:pt-14 flex-wrap  mt-[14px]  justify-center items-center  -mx-3 ">
+        <div className="flex relative flex-row  flex-grow mb-6 xl:pt-14 flex-wrap  mt-[14px]  justify-center items-center  -mx-3 ">
           <div className="md:w-6/12 z-30 px-3 w-full">
             <h2 className="text-[30px] font-normal text-center md:text-start leading-[38px] text-black uppercase ff-hel">
               THE FOUR PHASES OF

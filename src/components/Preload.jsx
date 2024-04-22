@@ -1,4 +1,4 @@
-import logo from "../Assets/images/svg/Logo.svg";
+import logo from "../Assets/images/svg/ftlogo.svg";
 
 function Preload() {
   return (
@@ -9,7 +9,7 @@ function Preload() {
       >
         <img
           rel="preload"
-          className="animate-bounce w-[410px]"
+          className="animate-bounce w-[240px] md:w-[410px]"
           src={logo}
           alt="logo"
         />

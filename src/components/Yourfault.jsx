@@ -8,7 +8,7 @@ const Yourfault = () => {
         <div className="flex relative flex-row flex-wrap  justify-center items-center -mx-3 md:pt-[51px]">
           <div className="lg:w-6/12 z-30 w-full">
             <div className="flex flex-col lg:justify-end justify-center items-center lg:items-end">
-              <h1 className="text-[48px] md:text-[60px] ff-hel font-normal leading-[77px] text-black">
+              <h1 className="text-[48px] md:text-[60px] text-center md:text-start ff-hel font-normal leading-[77px] text-black">
                 IT'S NOT
                 <br />
                 <span className="text-[#f77b0b] lg:ps-8 lg:ms-[40px]">

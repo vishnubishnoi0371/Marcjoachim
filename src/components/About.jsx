@@ -26,7 +26,7 @@ const About = () => {
           <div className="md:w-1/2 z-30 w-full">
             <img className="w-full" src={about} alt="about" />
           </div>
-          <div className="md:w-1/2 z-30 w-full ps-3 lg:ps-[50px]">
+          <div className="md:w-1/2 z-30 w-full px-3 lg:ps-[50px]">
             <h1 className="fonr-normal text-center md:text-start text-[40px] md:text-[45px] lg:text-[52px] text-black  uppercase font-ff-hel md:leading-[67px]">
               LAWYER <span className="text-[#f77b0b]"> &</span> DIVORCE COACH
             </h1>

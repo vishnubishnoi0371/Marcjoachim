@@ -4,7 +4,7 @@ import { Facebook, Insta, Mail, Twiter } from "./Common/icon";
 
 const MyFooter = () => {
   return (
-    <div className="   bg-[url(./Assets/images/webp/footer-bg.webp)] bg-no-repeat  bg-cover bg-center  py-[95px]">
+    <div className="   bg-[url(./Assets/images/webp/footer-bg.webp)] bg-no-repeat  bg-cover bg-center py-[40px]  md:py-[95px]">
       <div className="max-w-[1140px] flex flex-col justify-center relative items-center  flex-grow mx-auto px-3">
         <img
           className="mb-4 max-w-[240px] max-h-[90px]"
