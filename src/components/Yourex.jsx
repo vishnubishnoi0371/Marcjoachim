@@ -13,7 +13,7 @@ const Yourex = () => {
             their lives today. Assisting you to overcome this situation is what
             we do.
           </p>
-          <button className="text-[16px] font-ff-inter font-medium leading-[24px] text-white flex justify-center mx-auto p-[16px_36px] rounded-[68px] bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] border-transparent">
+          <button className="text-[16px] hover:shadow-button duration-300 font-ff-inter font-medium leading-[24px] text-white flex justify-center mx-auto p-[16px_36px] rounded-[68px] bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] border-transparent">
             Let’s find it out
           </button>
         </div>

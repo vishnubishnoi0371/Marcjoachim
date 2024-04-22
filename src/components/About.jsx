@@ -42,7 +42,7 @@ const About = () => {
               Marc J. Hubrich is the founder of the mindset agency specializing
               in consulting services.
             </p>
-            <div className="border_gradient cursor-pointer mx-auto   md:mx-0 rounded-full w-full max-w-[330px]">
+            <div className="border_gradient hover:shadow-button duration-300 cursor-pointer mx-auto   md:mx-0 rounded-full w-full max-w-[330px]">
               <a className="  bg-white p-[13.83px_19px] justify-center rounded-[63px] flex items-center gap-4">
                 <span className="font-gradient  text-base font-ff-inter font-medium leading-[24px]">
                   Learn more about the agency

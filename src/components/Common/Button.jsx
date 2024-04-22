@@ -3,7 +3,7 @@ import linkbtn from "../../Assets/images/svg/hero-book.svg";
 
 const Button = (props) => {
   return (
-    <div className="border_gradient  w-full max-w-[452px] rounded-[63px]">
+    <div className="border_gradient  hover:shadow-button duration-300 w-full max-w-[452px] rounded-[63px]">
       <a className="p-[5.83px_9px] cursor-pointer  bg-white   rounded-[61px] flex items-center gap-1">
         <span className="ms-3 ">
           <img

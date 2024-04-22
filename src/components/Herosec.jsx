@@ -88,7 +88,9 @@ const Herosec = () => {
             </p>
             <div className="flex items-center gap-4">
               <Button text="Book  a non-binding initial consultation now" />
-              <img src={phone} alt="phone-svg" />
+              <a href="tel:9992877529">
+                <img src={phone} alt="phone-svg" />
+              </a>
             </div>
           </div>
           <div className=" flex md:mt-5 xl:translate-y-[233px] lg:translate-y-[133px] gap-[50px] items-center">

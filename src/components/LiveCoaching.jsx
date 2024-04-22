@@ -80,7 +80,7 @@ const LiveCoaching = () => {
             </div>
           ))}
           <div className=" lg:w-1/3 px-3 mx-auto lg:mx-0">
-            <div className="border_gradient  w-full max-w-[452px] mt-3 lg:mt-[80px] rounded-[8px]">
+            <div className="border_gradient hover:shadow-button duration-300 w-full max-w-[452px] mt-3 lg:mt-[80px] rounded-[8px]">
               <a className="p-[5.83px_9px] cursor-pointer  bg-white   rounded-[8px] flex items-center gap-1">
                 <span className="ms-3 ">
                   <img
