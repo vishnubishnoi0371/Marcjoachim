@@ -7,16 +7,28 @@ const Youget = () => {
   return (
     <div className="pt-[48px] relative">
       <div className="container z-[1] mx-auto px-3 ">
-        <p className="text-base font-normal font-ff-pop leading-[26px] text-black mb-5 text-center">
+        <p
+          data-aos="zoom-in"
+          className="text-base font-normal font-ff-pop leading-[26px] text-black mb-5 text-center"
+        >
           You are not alone! Numerous women before you stood exactly at this
           point, where you are now.
         </p>
-        <div className="flex items-center justify-center gap-4 pb-[100px] md:pb-[122px]">
-          <Button text="Book a non-binding initial consultation now" />
+        <div
+          data-aos="zoom-in"
+          className="flex items-center justify-center gap-4 pb-[100px] md:pb-[122px]"
+        >
+          <Button
+            label="book-binding"
+            text="Book a non-binding initial consultation now"
+          />
         </div>
-        <div className="flex relative flex-row px-3 flex-wrap mb-[50px] justify-center items-center -mx-3 ">
+        <div className="flex relative flex-row px-3 flex-wrap mb-7 lg:mb-0 justify-center items-center -mx-3 ">
           <div className="lg:w-5/12 z-30 w-full">
-            <div className="flex flex-col md:flex-row items-center">
+            <div
+              data-aos="zoom-in"
+              className="flex flex-col md:flex-row items-center"
+            >
               <h1 className="text-[42px]  md:text-[52px] font-normal uppercase ff-hel leading-[normal] md:leading-[67px] text-black">
                 what you <br />
                 <span className="md:text-[60px] text-[48px] leading-[normal] md:leading-[78px]">
@@ -31,7 +43,7 @@ const Youget = () => {
             </div>
           </div>
           <div className="lg:w-7/12 z-30 w-full">
-            <div className="flex gap-3 items-center px-3 ">
+            <div data-aos="zoom-in" className="flex gap-3 items-center px-3 ">
               <hr className="h-[60px] w-[2px] bg-[#9800b0]" />{" "}
               <p className="text-[16px] text-center mx-auto md:mx-0 md:text-start mt-4 sm:mt-0 max-w-[420px] font-ff-pop leading-[26px] text-black mb-0 font-normal">
                 I will show you which steps are necessary for you to finally
@@ -41,7 +53,10 @@ const Youget = () => {
             </div>
           </div>
         </div>
-        <div className=" absolute z-[-1] me-4 sm:me-0 bottom-[45%] md:bottom-[20%] xl:bottom-[25%] right-[15%] md:right-[4%] xl:right-[12%]">
+        <div
+          data-aos="zoom-in"
+          className=" absolute z-[-1] me-4 sm:me-0 bottom-[45%] md:bottom-[20%] xl:bottom-[25%] right-[15%] md:right-[4%] xl:right-[12%]"
+        >
           <span className=" font-ff-pop md:inline-block flex items-end text-end ms-auto md:ms-14 max-w-max sm:-rotate-90 font-light   text-xl leading-[34px]">
             MJH
           </span>

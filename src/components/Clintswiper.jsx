@@ -65,7 +65,10 @@ const Clintswiper = () => {
   const [secondSwiper, setSecondSwiper] = React.useState(null);
   return (
     <div className="relative container mx-auto sm:py-5 lg:py-[200px]">
-      <div className="flex items-center justify-center flex-col sm:absolute z-[11] sm:top-[4%]  lg:top-[0%] ms-[-30px] sm:right-[1%]">
+      <div
+        data-aos="zoom-in"
+        className="flex items-center justify-center flex-col sm:absolute z-[11] sm:top-[4%]  lg:top-[0%] ms-[-30px] sm:right-[1%]"
+      >
         <span className=" font-ff-pop text-end  max-w-max sm:-rotate-90 font-light ms-14 flex sm:items-end text-xl leading-[34px]">
           MJH
         </span>
@@ -78,11 +81,13 @@ const Clintswiper = () => {
           <div className=" sm:mt-[11px] w-[200px] sm:w-[26px] h-3 sm:h-40 lg:h-[180px] border-r-[2px] border-b-[2px] border-0 border-[#F77B0B]"></div>
         </div>
       </div>
-      <div>
-        <h1 className="md:text-[52px] text-[42px] text-center md:mb-10 uppercase font-normal ff-hel leading-[normal] md:leading-[67px] text-black ">
-          What our <span className="text-[#F77B0B]"> clients</span> say
-        </h1>
-      </div>
+
+      <h1
+        data-aos="zoom-in"
+        className="md:text-[52px] text-[42px] text-center md:mb-7 uppercase font-normal ff-hel leading-[normal] md:leading-[67px] text-black "
+      >
+        What our <span className="text-[#F77B0B]"> clients</span> say
+      </h1>
       <Swiper
         direction={"vertical"}
         modules={[Virtual, A11y, Autoplay, Controller, Pagination]}
@@ -98,7 +103,10 @@ const Clintswiper = () => {
       >
         {clientData1.map((data, index) => (
           <SwiperSlide key={index} className=" !h-auto">
-            <div className=" p-[38px_20px_20px] md:p-[58px_50px_32px] max-w-[820px] mx-auto relative z-[1] shadow-[0px_2px_48px_0px_#00000014] h-full">
+            <div
+              data-aos="zoom-in"
+              className=" p-[38px_20px_20px] md:p-[58px_50px_32px] max-w-[820px] mx-auto relative z-[1] shadow-[0px_2px_48px_0px_#00000014] h-full"
+            >
               <p className=" text-black opacity-[70%] font-ff-pop max-w-[721px] mx-auto text-base leading-[25px] text-center">
                 {data.discription}
               </p>
@@ -118,7 +126,10 @@ const Clintswiper = () => {
             </div>
           </SwiperSlide>
         ))}
-        <span className="hidden md:block absolute top-[9%]  sm:top-[14%] right-[14%] z-[-1]">
+        <span
+          data-aos="zoom-in"
+          className="hidden md:block absolute top-[9%]  sm:top-[14%] right-[14%] z-[-1]"
+        >
           <Quotes />{" "}
         </span>
       </Swiper>
@@ -139,7 +150,10 @@ const Clintswiper = () => {
       >
         {clientData2.map((data, index) => (
           <SwiperSlide key={index} className=" sm:h-auto mb-[6px]">
-            <div className=" p-[25px_36px_31px] mt-5 relative z-[1]  shadow-[0px_2px_48px_0px_#00000014]">
+            <div
+              data-aos="zoom-in"
+              className=" p-[25px_36px_31px] mt-5 relative z-[1]  shadow-[0px_2px_48px_0px_#00000014]"
+            >
               <p className=" text-black opacity-[70%] font-ff-pop max-w-[721px] mx-auto text-base leading-[25px] text-center">
                 {data.discription}
               </p>
@@ -153,7 +167,10 @@ const Clintswiper = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="flex items-center justify-center flex-col mt-10 lg:mt-0 lg:absolute left-[2%]  sm:bottom-[4%]  ">
+      <div
+        data-aos="zoom-in"
+        className="flex items-center justify-center flex-col mt-10 lg:mt-0 lg:absolute left-[2%]  sm:bottom-[4%]  "
+      >
         <span className=" font-ff-pop text-end  hidden lg:block  lg:-rotate-90 font-light lg:ms-[-180px]   text-xl leading-[34px]">
           MJH
         </span>

@@ -18,6 +18,7 @@ const Backtotop = () => {
     <div>
       {backtotop ? (
         <button
+        
           onClick={runTop}
           className="fixed 'smooth'  animate-flip border-[2px] border-white  w-[38px] sm:w-[50px] h-[38px] sm:h-[50px] rounded-full bg-[#003e92] z-40 bottom-0 right-1 duration-500 flex items-center justify-center  me-2 mb-2  cursor-pointer"
         >

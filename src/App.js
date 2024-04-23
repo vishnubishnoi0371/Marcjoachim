@@ -15,8 +15,13 @@ import TargetGroup from "./components/TargetGroup";
 import Youget from "./components/Youget";
 import Yourex from "./components/Yourex";
 import Yourfault from "./components/Yourfault";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init({ once: true, duration: 2500 });
+  }, []);
+
   const [first, setfirst] = useState(true);
   useEffect(() => {
     setfirst(true);
