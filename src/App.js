@@ -27,7 +27,7 @@ function App() {
     setfirst(true);
     setTimeout(() => {
       setfirst(false);
-    }, 3000);
+    }, 300);
   }, []);
   return (
     <>
